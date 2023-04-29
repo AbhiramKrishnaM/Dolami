@@ -1,8 +1,17 @@
+import { Icon } from "@iconify/react";
+
 function Avatar(props) {
   return (
     <>
-      <div className="p-5 m-2 rounded-xl bg-red-100/30 shadow-xl cursor-pointer">
-        <img src={props.url} alt={props.alt} className="rounded-md" />
+      <div className="p-5 m-2 rounded-xl bg-red-100/30 shadow-xl cursor-pointer ">
+        <div className="relative">
+          <img src={props.url} alt={props.alt} className="rounded-md" />
+
+          <button className="px-2 py-1 bg-custom-blue-1 hover:bg-custom-blue-1/70 rounded-lg text-white flex items-center gap-3 absolute right-4 top-4">
+            <Icon icon="material-symbols:add-shopping-cart" />
+            <span>Add</span>
+          </button>
+        </div>
 
         <h3>{props.info}</h3>
 
