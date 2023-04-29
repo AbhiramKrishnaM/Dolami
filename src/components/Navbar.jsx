@@ -1,9 +1,11 @@
+import { Icon } from "@iconify/react";
+
 function Navbar() {
   return (
     <div className="w-full  p-5  flex items-center justify-between">
       <img src="/logo/logo-basic.png" className="w-[15%]" />
 
-      <div>
+      <div className="flex items-center gap-4">
         <form className="flex items-center">
           <label for="voice-search" className="sr-only">
             Search
@@ -27,7 +29,7 @@ function Navbar() {
             <input
               type="text"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5   "
-              placeholder="Search"
+              placeholder="Search Market place"
               required
             />
           </div>
@@ -38,6 +40,36 @@ function Navbar() {
             Search
           </button>
         </form>
+
+        <div className="relative p-1 rounded-lg bg-[#161719] text-white cursor-pointer">
+          <Icon
+            icon="material-symbols:notifications-outline"
+            className="w-7 h-7 rounded-full"
+          />
+
+          <div className=" rounded-full h-4 w-4 flex items-center justify-center bg-red-500 border border-white absolute -top-2 -right-2">
+            <span className="text-xs">3</span>
+          </div>
+        </div>
+
+        <div className="relative p-1 rounded-lg bg-[#161719] text-white cursor-pointer">
+          <Icon
+            icon="material-symbols:shopping-cart-outline-rounded"
+            className="w-7 h-7 rounded-full"
+          />
+
+          <div className=" rounded-full h-4 w-4 flex items-center justify-center bg-red-500 border border-white absolute -top-2 -right-2">
+            <span className="text-xs">1</span>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+            alt="User icon"
+            className="w-10 h-10 rounded-lg"
+          />
+        </div>
       </div>
     </div>
   );
