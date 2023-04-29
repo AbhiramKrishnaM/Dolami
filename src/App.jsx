@@ -1,4 +1,4 @@
-import { avatars } from "./assets/data";
+import { avatars } from "../public/assets/data";
 import Avatar from "./components/AvatarCards";
 
 function App() {

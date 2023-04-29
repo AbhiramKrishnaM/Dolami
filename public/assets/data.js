@@ -9,7 +9,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -22,7 +22,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -35,7 +35,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -48,7 +48,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -61,7 +61,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -74,7 +74,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -87,7 +87,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -100,7 +100,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -113,7 +113,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -126,7 +126,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -139,7 +139,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -152,7 +152,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -165,7 +165,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -178,7 +178,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -191,7 +191,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -204,7 +204,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -217,7 +217,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -230,7 +230,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -243,7 +243,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -256,7 +256,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -269,7 +269,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -282,7 +282,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -295,7 +295,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
@@ -308,7 +308,7 @@ const avatars = [
     alt: "Avatown Avatar image",
     rating: 5,
     likes: 100,
-    price: "$50.00",
+    price: "50.00",
     fits: "PC only",
     additionalInfo:
       "Auto upload service ready, you can use this avatar within 24 hours",
