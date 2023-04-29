@@ -7,6 +7,16 @@ import { Tooltip } from "flowbite-react";
 function Avatar(props) {
   const [isLiked, setIsLiked] = useState(false);
 
+  const [isCopied, setIsCopied] = useState(false);
+
+  function copied() {
+    setIsCopied(true);
+
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 2000);
+  }
+
   return (
     <>
       <div className="p-5 m-2 rounded-xl bg-red-100/30 shadow-xl cursor-pointer ">
@@ -79,9 +89,19 @@ function Avatar(props) {
         </div>
         <div className="mt-3  flex items-center ">
           <span>{props.additionalInfo}</span>
-          <Tooltip content="Tooltip content" style="dark" arrow={false}>
-            <Icon icon="material-symbols:content-copy-outline" width={30} />
-          </Tooltip>
+          {!isCopied ? (
+            <Tooltip content="Copy Url" style="dark" arrow={false}>
+              <Icon
+                icon="material-symbols:content-copy-outline"
+                width={30}
+                onClick={copied}
+              />
+            </Tooltip>
+          ) : (
+            <Tooltip content="Copied Url" style="dark" arrow={false}>
+              <Icon icon="icon-park-twotone:success" width={30} />
+            </Tooltip>
+          )}
         </div>
       </div>
     </>
