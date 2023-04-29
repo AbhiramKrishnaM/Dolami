@@ -1,5 +1,8 @@
+import { useParams } from "react-router-dom";
+
 function Specific() {
-  return <div>id</div>;
+  const { id } = useParams();
+  return <div>This page {id}</div>;
 }
 
 export default Specific;

@@ -3,8 +3,6 @@ import { useState } from "react";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-import Sidenavbar from "../components/Sidenavbar";
-
 function Avatar(props) {
   const [isLiked, setIsLiked] = useState(false);
 
@@ -20,8 +18,6 @@ function Avatar(props) {
 
   return (
     <Link to={`/avatar/${props.id}`}>
-      <Sidenavbar />
-
       <div className="p-5 m-2 rounded-xl bg-red-100/30 shadow-xl cursor-pointer ">
         <div className="relative">
           <img src={props.url} alt={props.alt} className="rounded-lg" />
