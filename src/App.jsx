@@ -1,5 +1,10 @@
+import { avatars } from "../public/assets/data";
+
 function App() {
-  return <h1>Hello world</h1>;
+  const Cards = avatars.map((avatar) => (
+    <img src={avatar.url} key={avatar.id} />
+  ));
+  return Cards;
 }
 
 export default App;
