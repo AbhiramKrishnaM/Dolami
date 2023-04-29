@@ -2,8 +2,10 @@ import { useState } from "react";
 
 import { Icon } from "@iconify/react";
 
+import { Tooltip } from "flowbite-react";
+
 function Avatar(props) {
-  const [isLiked, setIsLiked] = useState(true);
+  const [isLiked, setIsLiked] = useState(false);
 
   return (
     <>
@@ -11,20 +13,20 @@ function Avatar(props) {
         <div className="relative">
           <img src={props.url} alt={props.alt} className="rounded-lg" />
 
-          <div className="absolute right-4 top-4 flex items-center gap-3">
-            <button className="px-2 py-1 bg-custom-blue-1 hover:bg-custom-blue-1/70 rounded-lg text-white flex items-center gap-3 ">
+          <div className="absolute right-4 top-4 flex items-center gap-2">
+            <button className="px-3 py-1 bg-custom-blue-1 hover:bg-custom-blue-1/70 rounded-lg text-white flex items-center gap-1 ">
               <Icon icon="material-symbols:add-shopping-cart" />
               <span>Add</span>
             </button>
 
             <Icon
               icon={
-                isLiked
+                !isLiked
                   ? "material-symbols:favorite-outline"
                   : "material-symbols:favorite"
               }
               width={30}
-              className={isLiked ? "text-white" : "text-red-500"}
+              className={!isLiked ? "text-white" : "text-red-500"}
               onClick={() => setIsLiked(!isLiked)}
             />
           </div>
@@ -75,7 +77,12 @@ function Avatar(props) {
           <Icon icon="material-symbols:desktop-windows-rounded" width={25} />
           <span>{props.fits}</span>
         </div>
-        <div className="mt-3 text-sm">{props.additionalInfo}</div>
+        <div className="mt-3  flex items-center ">
+          <span>{props.additionalInfo}</span>
+          <Tooltip content="Tooltip content" style="dark" arrow={false}>
+            <Icon icon="material-symbols:content-copy-outline" width={30} />
+          </Tooltip>
+        </div>
       </div>
     </>
   );
