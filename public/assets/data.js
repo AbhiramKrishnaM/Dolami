@@ -4,7 +4,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image A(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -17,7 +17,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image B(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -30,7 +30,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "male",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image C(M).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -43,7 +43,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image D(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -56,7 +56,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "male",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image E(M).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -69,7 +69,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image F(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -82,7 +82,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image G(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -95,7 +95,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image H(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -108,7 +108,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image I(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -121,7 +121,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "male",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image J(M).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -134,7 +134,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "male",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image K(M).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -147,7 +147,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image L(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -160,7 +160,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image M(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -173,7 +173,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image N(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -186,7 +186,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image O(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -199,7 +199,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image P(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -212,7 +212,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "male",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image Q(M).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -225,7 +225,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image R(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -238,7 +238,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image S(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -251,7 +251,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image T(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -264,7 +264,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image U(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -277,7 +277,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image V(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -290,7 +290,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image W(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
@@ -303,7 +303,7 @@ const avatars = [
   {
     id: uuid4(),
     type: "female",
-    info: "Avatar name 'Avatown' -nice original avatar of Avatown",
+    info: "'Avatown' -nice original avatar of Avatown",
     url: "./assets/VRC image X(F).png",
     alt: "Avatown Avatar image",
     rating: 5,
