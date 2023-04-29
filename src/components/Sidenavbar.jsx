@@ -1,5 +1,9 @@
 function Sidenavbar() {
-  return <div className="min-h-screen w-[250px] p-4">Sidenavbar</div>;
+  return (
+    <div>
+      <h3 className="text-base font-semibold ">Category</h3>
+    </div>
+  );
 }
 
 export default Sidenavbar;

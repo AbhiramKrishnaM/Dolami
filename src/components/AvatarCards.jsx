@@ -2,8 +2,6 @@ import { useState } from "react";
 
 import { Icon } from "@iconify/react";
 
-import { Tooltip } from "flowbite-react";
-
 function Avatar(props) {
   const [isLiked, setIsLiked] = useState(false);
 
@@ -95,17 +93,17 @@ function Avatar(props) {
         <div className="mt-3  flex items-center gap-4">
           <span className="text-sm lg:text-base">{props.additionalInfo}</span>
           {!isCopied ? (
-            <Tooltip content="Copy Url" style="dark" arrow={false}>
+            <div className="tooltip" data-tip="Copy Url">
               <Icon
                 icon="material-symbols:content-copy-outline"
                 width={20}
                 onClick={copied}
               />
-            </Tooltip>
+            </div>
           ) : (
-            <Tooltip content="Copied Url" style="dark" arrow={false}>
+            <div className="tooltip" data-tip="Copied Url">
               <Icon icon="icon-park-twotone:success" width={20} />
-            </Tooltip>
+            </div>
           )}
         </div>
       </div>
