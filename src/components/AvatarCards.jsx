@@ -34,6 +34,18 @@ function Avatar(props) {
           <h3 className="text-3xl ">{props.info}</h3>
         </div>
 
+        <div className="flex items-center space-x-4 mt-3">
+          <img
+            className="w-10 h-10 rounded-full"
+            src="../public/profile.jpg"
+            alt="Profile image"
+          />
+          <div className="font-medium ">
+            <div>Avatar Joes</div>
+            <div className="text-sm text-gray-500 ">Joined in August 2014</div>
+          </div>
+        </div>
+
         <div className="mt-3 grid grid-cols-2">
           <div className="flex items-center">
             <svg
