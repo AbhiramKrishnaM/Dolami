@@ -10,6 +10,8 @@ function App() {
   return (
     <div>
       <Navbar />
+
+      <Sidenavbar />
       {/* <div className="sticky top-1/2 translate-y-[250px] translate-x-1/2 bottom-0 bg-red-100 w-[50%] z-50 p-5 rounded-xl shadow-xl">
         <Sidenavbar />
       </div> */}
