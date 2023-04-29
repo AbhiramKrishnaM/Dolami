@@ -3,9 +3,9 @@ import { Icon } from "@iconify/react";
 function Navbar() {
   return (
     <div className="w-full  p-5  flex items-center justify-between">
-      <img src="/logo/logo-basic.png" className="w-[15%]" />
+      <img src="/logo/logo-basic.png" className="w-[30%] md:w-[15%]" />
 
-      <div className="flex items-center gap-4">
+      <div className="hidden md:flex items-center gap-4 ">
         <form className="flex items-center">
           <label for="voice-search" className="sr-only">
             Search
@@ -70,6 +70,22 @@ function Navbar() {
             className="w-10 h-10 rounded-lg"
           />
         </div>
+      </div>
+
+      <div className="cursor-pointer md:hidden">
+        <svg
+          class="w-6 h-6"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
       </div>
     </div>
   );
